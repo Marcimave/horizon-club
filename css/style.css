@@ -324,7 +324,7 @@ article {
 }
 
 h1 {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-weight: bold;
 }
 
