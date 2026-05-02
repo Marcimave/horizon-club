@@ -259,10 +259,6 @@ footer p{
 /* RESPONSIVE */
 @media(max-width:768px){
 
-  h1{
-    font-size:24px;
-  }
-
   nav a{
     display:block;
     margin:10px 0;
