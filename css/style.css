@@ -330,3 +330,21 @@ text-shadow:
 0 0 10px rgba(255,215,0,0.5);
 font-size: 32px ;
 }
+/* Supprime l'effet bleu au clic sur mobile */
+img,
+.product img,
+.gallery img {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+/* Supprime les effets de focus/clic */
+img:focus,
+img:active,
+.product img:focus,
+.product img:active,
+.gallery img:focus,
+.gallery img:active {
+  outline: none;
+  box-shadow: none;
+}
