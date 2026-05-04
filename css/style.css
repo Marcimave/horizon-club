@@ -352,3 +352,7 @@ img:active,
 * {
   -webkit-tap-highlight-color: transparent;
 }
+
+#blanc {
+  color: white ;
+}
